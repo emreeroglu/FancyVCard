@@ -1,0 +1,27 @@
+/*
+Theme Name: EE Fancy VCard Theme
+Theme URI: emreeroglu.com.tr
+Description: Bootstrapped theme.
+Version: 0.1
+Author: Emre EROĞLU
+Author URI: emreeroglu.com.tr
+*/
+@import url('css/bootstrap.min.css');
+@import url('css/full-slider.css');
+
+
+.navbar{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.jumbotron {
+   background: rgb(255, 255, 255); /* This is for ie8 and below */
+   background: rgba(255, 255, 255, 0); 
+}
+
+body > .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+   background: rgba(255, 255, 255, 0.7); 
+}
